@@ -1,0 +1,67 @@
+/* 767px hoặc nhỏ hơn  */
+@media (max-width: 767px) {
+  /* body {
+    background-color: blue;
+  } */
+
+  .nav3 {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    height: auto;
+  }
+  .navbar a:link,
+  a:visited {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    border-left: none !important;
+    border-right: none !important;
+  }
+
+  /* #target {
+  }
+  #personal-info {
+  } */
+  .cer-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .cer-content2 {
+    /* viền hinh */
+    border-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+  .cer-content3 {
+    grid-column: 1/-1;
+    padding-top: 40px;
+    /* viền hinh */
+    border-top: 2px solid #d6c08d;
+  }
+
+  .img-web {
+    width: 290px;
+    height: auto;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .pro-gird {
+    display: grid;
+    margin-top: 12px;
+    margin-left: 0px;
+    grid-template-columns: repeat(2, 77px);
+  }
+
+  .pro-gird > span {
+    margin-left: -50px !important;
+  }
+
+  #footer a:link {
+    margin-right: 10px;
+  }
+}
